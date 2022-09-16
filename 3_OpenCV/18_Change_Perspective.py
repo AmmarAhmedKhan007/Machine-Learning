@@ -3,11 +3,11 @@ import cv2 as cv
 import numpy as np
 
 img= cv.imread("Resources\wrap.png")
-img= cv.resize(img, (800,900))
+# img= cv.resize(img, (800,900))
 
 print(img.shape)
 # Define Points
-point1= np.float32([[233, 196],[82, 471],[522, 169],[715, 482]])      # Find Corner points
+point1= np.float32([[76, 67],[172, 58],[28, 160],[231, 165]])      # Find Corner points
 Width= 800
 Height= 900
 point2= np.float32([[0, 0],[800, Width],[0, Height],[Width, Height]])

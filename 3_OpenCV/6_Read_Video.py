@@ -1,7 +1,7 @@
 
 import cv2 as cv
 
-vid = cv.VideoCapture("Resources\Video.mp4")
+vid = cv.VideoCapture("Resources\mixkit.mp4")
 
 # Indicator
 if (vid.isOpened() == False):
